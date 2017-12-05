@@ -50,6 +50,7 @@ prime = true
       result = i * (holder - x)
       x += 1
 
+      print result
       if result == num
         prime = false
       end
